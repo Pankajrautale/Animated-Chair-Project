@@ -1,0 +1,130 @@
+/* MAIN SECTION */
+.Delivery{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+/* LEFT IMAGE SECTION */
+.left-section1{
+    width: 49%;
+    height: 45rem;   
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+        position: relative;
+}
+.left-section1.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    background-color: black;
+    z-index: 0;
+}
+
+.left-section1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        /* PERFECT FIT */
+    display: block;
+}
+
+/* RIGHT SIDE WRAPPER */
+.right-section1{
+    height: 45rem;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+/* TOP BLACK BOX */
+.right1{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.topic{
+    width: 95%;
+    /* margin: 4rem auto ; */
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 6px;
+}
+
+.topic h1{
+    width: 45%;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.topic button{
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+/* POLICY ICONS */
+.return-policy{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.policy{
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+
+/* BOTTOM IMAGE */
+.right2{
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.right2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+@media screen and (max-width:900px) {
+    .Delivery{
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+.left-section1{
+    display: none;
+}
+.right-section1{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    
+}
+.right1{
+    margin-bottom: 10px;
+}
+}

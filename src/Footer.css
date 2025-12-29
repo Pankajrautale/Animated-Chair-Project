@@ -1,0 +1,221 @@
+    footer {
+        /* height: 100vh; */
+        width: 96%;
+        background-color: black;
+        margin: 20px auto;
+        border-radius: 20px;
+        outline: none;
+        color: white;
+    }
+
+    .last-sec {
+        height: 70vh;
+        width: 96%;
+        /* background-color: pink; */
+        margin: 0 auto;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .links {
+        height: 22rem;
+        border: 2px solid black;
+        width: 32%;
+        /* border: 2px solid whitesmoke; */
+    }
+
+    .linkss {
+                height: 22rem;
+        border: 2px solid black;
+        width: 32%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .links h1 {
+        font-size: clamp(1rem, 3vw, 2.7rem);
+        /* padding: 20px 0px; */
+    }
+
+    .buttonwithContent {
+        display: flex;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 10px;
+        /* margin-left: 20px; */
+
+
+    }
+
+    input {
+        /* margin-left: 20px; */
+        /* padding: 10px 15px; */
+        width: 70%;
+        border: none;
+        background: none;
+        border-bottom: 1px solid rgb(11, 24, 146);
+        margin: 50px 0px;
+        color: white;
+    }
+
+    input:focus {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid rgb(11, 24, 146);
+    }
+
+    .links button {
+        background-color: transparent;
+        padding: 13px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10rem;
+
+        gap: 10px;
+        border-radius: 10px;
+        border: none;
+        background-color: white;
+        transition: 2s ease;
+        text-align: center;
+        transition: 2s ease-in;
+        cursor: pointer;
+        border-bottom: 1px solid black;
+    }
+
+    button img {
+        transition: 0.6s ease;
+    }
+
+    .links button:hover img {
+        rotate: 45deg;
+    }
+
+    .links button h3 {
+        font-size: clamp(0.5rem, 1vw, 1rem);
+        text-align: center;
+        color: rgb(12, 12, 12);
+        font-weight: 300;
+    }
+
+    .left-links {
+        width: auto;
+        height: 100%;
+        text-align: center;
+        /* border: 2px solid yellow; */
+        /* margin-top: 20px; */
+    }
+
+    .link-right {
+        width: auto;
+        height: 100%;
+        text-align: center;
+        /* border: 2px solid yellow; */
+        /* margin-top: 20px; */
+    }
+
+    .linkss ul li {
+        padding: 10px;
+        font-size: clamp(1rem, 2vw, 1.2rem);
+        margin-top: 10px;
+    }
+
+    .linkss ul li:hover {
+        border-bottom: 1px solid rgb(243, 240, 240);
+    }
+
+    .linksss {
+            height: 22rem;
+        /* border: 2px solid rgb(202, 32, 32); */
+        width: 32%;
+        text-align: center;
+    }
+    .linksss h1 , p {
+        padding-bottom:20px ;
+    }
+    .linksss h1{
+        font-size: clamp(1rem ,2vw, 2rem);
+        font-weight: 500;
+      
+    }
+    .linksss p{
+        margin-bottom: 30px;
+    }
+    .social-icon{
+        color: white;
+        display: flex;
+        /* width:80%; */
+        padding: 20px;
+    
+        /* background-color: pink; */
+        justify-content:center;
+        /* align-items:center; */
+        overflow: hidden;
+        gap: 30px;
+    }
+    .social-icon img{
+        width: 10%;
+        transition: 0.3s ease;
+    }
+    
+    .social-icon img:hover{
+        transform: scale(1.1);
+    }
+    @media screen and (max-width:900px) {
+            .last-sec{
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+     .links{
+        width: 90%;
+        height: auto;
+        padding: 40px 0px;
+        margin: 0 auto;
+        text-align: center;
+     }     
+     .buttonwithContent{
+        display: flex;
+        justify-content: center;
+     }
+    .linkss{
+        height: auto;
+        width: 90%;
+        margin: 30px auto;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        /* background: #b000; */
+    }
+    .left-links{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .left-links ul{
+        display: flex;
+        justify-content: center;
+    }
+    .link-right{
+        display: flex;
+        justify-content: center;
+    }
+    .link-right ul{
+        display: flex;
+        justify-content: center;
+    }
+    .linksss{
+        height: auto;
+        width: 90%;
+        margin: 30px auto;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        /* background-color: red; */
+    }
+    }

@@ -1,0 +1,141 @@
+.blog-section {
+    /* height: 100vh; */
+    width: 96%;
+    /* background-color: aqua; */
+    margin: 10px auto;
+}
+
+.pair {
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: rgb(172, 172, 28); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box9 {
+    width: 40%;
+    /* height: 55rem; */
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+
+}
+
+.img {
+    width: 100%;
+    /* height: ; */
+    object-fit: cover;
+    object-position: center;
+    /* main point */
+    border-radius: 20px;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+
+.img img {
+    border-radius: 20px;
+
+}
+
+.content-row {
+    width: 90%;
+    padding: 10px;
+    /* background-color: rgb(179, 179, 150); */
+    margin: 0 auto;
+}
+
+.infoe {
+    width: 70%;
+    margin: 10px 0px;
+    font-size: clamp(1rem, 2vw, 2rem);
+    padding: 10px 20px 40px;
+
+}
+
+.content-row h5 {
+    color: rgb(36, 32, 32);
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-weight: 200;
+    padding: 10px 20px;
+}
+
+.content-row button {
+    padding: 10px 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+    margin: 0 25px;
+    background: transparent;
+}
+
+.buttonwithContent {
+    display: flex;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.content-row button {
+    background-color: transparent;
+    padding: 13px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    gap: 10px;
+    /* border-radius: 10px; */
+    border: none;
+    transition: 2s ease;
+    text-align: center;
+    transition: 2s ease-in;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+
+button img {
+    transition: 0.6s ease;
+}
+
+.content-row button:hover img {
+    rotate: 45deg;
+}
+
+.content-row button h3 {
+    font-size: clamp(0.5rem, 1vw, 1rem);
+    text-align: center;
+    color: rgb(12, 12, 12);
+    font-weight: 300;
+}
+
+@media screen and (max-width:900px) {
+    .blog-section {
+        width: 100%;
+    }
+
+    .pair {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+  
+    }
+
+    .box9 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .img {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+}
