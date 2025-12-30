@@ -300,6 +300,9 @@ a {
 }
 
 @media screen and (max-width:950px) {
+    .hero-sec{
+    height: auto;
+  }
   nav {
     width: 70%;
     left: 15vw;
